@@ -2,7 +2,7 @@
     "users": [
         {
             "id": 1,
-            "name": "John Doe",
+            "name": "Jane Doe",
             "email": "D1p4R@example.com",
             "password": "a"
         },
@@ -21,9 +21,28 @@
             "password": "password123"
         }
     ],
+    "rentallocations": [
+        {
+            "id": 1,
+            "local": "Cau Giay District, Hanoi, Vietnam"
+        },
+        {
+            "id": 2,
+            "local": "Tan Son Nhat International Airport, Hanoi, Vietnam"
+        },
+        {
+            "id": 3,
+            "local": "Noi Bai International Airport, Ha Noi, Vietnam"
+        },
+        {
+            "id": 4,
+            "local": "Dong Da District, Ha Noi, Vietnam"
+        }
+    ],
     "cars": [
         {
             "id": 1,
+            "rentalLocatioID": 1,
             "name": "Toyota FT 86",
             "brand": "Toyota",
             "model": "FT 86",
@@ -42,6 +61,7 @@
         },
         {
             "id": 2,
+            "rentalLocatioID": 2,
             "name": "Honda Civic",
             "brand": "Honda",
             "model": "Civic",
@@ -56,10 +76,11 @@
             "description": "Reliable and fuel-efficient compact car",
             "additionalFunctions": "Bluetooth, backup camera, cruise control",
             "termOfUse": "45 days",
-            "image": "honda-civic"
+            "image": "HondaCivicRS"
         },
         {
             "id": 3,
+            "rentalLocatioID": 1,
             "name": "Ford Mustang",
             "brand": "Ford",
             "model": "Mustang",
@@ -78,6 +99,7 @@
         },
         {
             "id": 4,
+            "rentalLocatioID": 3,
             "name": "Tesla Model S",
             "brand": "Tesla",
             "model": "Model S",

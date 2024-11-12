@@ -2,11 +2,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import HomeGuest from "./pages/HomeGuest";
+import { AppContextProvider } from "./context/AppContext";
+//import HomeGuest from "./pages/HomeGuest";
 import Home from "./pages/Home";
 import CustomerLogin from "./components/auth/CustomerLogin";
 import CustomerRigister from "./components/auth/CustomerRigister";
-import { AppContextProvider } from "./context/AppContext";
+import CarDetail from "./pages/customer/CarDetail";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<CustomerLogin />} />
             <Route path="/register" element={<CustomerRigister />} />
+            <Route path="/car/:carId" element={<CarDetail />} /> {/* Add route for CarDetail */}
           </Routes>
         </div>
       </Router>

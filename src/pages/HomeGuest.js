@@ -1,7 +1,7 @@
 // src/pages/HomeGuest.js
 
 import React from 'react'
-import { AppContext } from '../context/AppContext'
+//import { AppContext } from '../context/AppContext'
 
 
 

@@ -1,0 +1,98 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "D1p4R@example.com",
+            "password": "a"
+        },
+        {
+            "id": "c9ba",
+            "name": "asd",
+            "email": "sd@12",
+            "password": "12"
+        }
+    ],
+    "carOwners": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "D1p4R@example.com",
+            "password": "password123"
+        }
+    ],
+    "cars": [
+        {
+            "id": 1,
+            "name": "Toyota FT 86",
+            "brand": "Toyota",
+            "model": "FT 86",
+            "numberOfSeats": "4",
+            "productionYear": "2015",
+            "transmissionType": "Automatic",
+            "fuelType": "Gasoline",
+            "mileage": "12321",
+            "basePrice": "10000",
+            "deposit": "1000",
+            "address": "123 Main St",
+            "description": "This is a great car",
+            "additionalFunctions": "Air conditioning, navigation system, launch control system",
+            "termOfUse": "30 days",
+            "image": "toyota-ft-86"
+        },
+        {
+            "id": 2,
+            "name": "Honda Civic",
+            "brand": "Honda",
+            "model": "Civic",
+            "numberOfSeats": "5",
+            "productionYear": "2018",
+            "transmissionType": "Manual",
+            "fuelType": "Gasoline",
+            "mileage": "50000",
+            "basePrice": "9000",
+            "deposit": "800",
+            "address": "456 Elm St",
+            "description": "Reliable and fuel-efficient compact car",
+            "additionalFunctions": "Bluetooth, backup camera, cruise control",
+            "termOfUse": "45 days",
+            "image": "honda-civic"
+        },
+        {
+            "id": 3,
+            "name": "Ford Mustang",
+            "brand": "Ford",
+            "model": "Mustang",
+            "numberOfSeats": "4",
+            "productionYear": "2020",
+            "transmissionType": "Automatic",
+            "fuelType": "Gasoline",
+            "mileage": "15000",
+            "basePrice": "25000",
+            "deposit": "2500",
+            "address": "789 Pine St",
+            "description": "Powerful sports car with a sleek design",
+            "additionalFunctions": "Heated seats, premium sound system, GPS",
+            "termOfUse": "30 days",
+            "image": "ford-mustang"
+        },
+        {
+            "id": 4,
+            "name": "Tesla Model S",
+            "brand": "Tesla",
+            "model": "Model S",
+            "numberOfSeats": "5",
+            "productionYear": "2022",
+            "transmissionType": "Automatic",
+            "fuelType": "Electric",
+            "mileage": "5000",
+            "basePrice": "80000",
+            "deposit": "5000",
+            "address": "101 Maple St",
+            "description": "Luxury electric sedan with advanced autopilot",
+            "additionalFunctions": "Autopilot, panoramic sunroof, Wi-Fi",
+            "termOfUse": "60 days",
+            "image": "tesla-model-s"
+        }
+    ]
+}
